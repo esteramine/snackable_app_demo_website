@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Snackable App Demo</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Snackable</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#goals">Goals <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#appDemo">App Demo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#screenshots">Detailed Intro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#moreInfo">More Info</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="videos-section">
+        <div class="container">
+            <!--<h1 class="mb-3 pt-3">Snackable App Demo</h1>-->
+            <div id="goals">
+                <h4 class="mb-3 mt-5">Goals of Snackable</h4>
+                <div class="row justify-content-center">
+                    <video width="600" controls>
+                        <source src="./videos/Snackable Goals.mp4" type="video/mp4" style="margin: 0 auto;">
+                        Your browser does not support HTML video.
+                    </video>
+                </div>
+            </div>
+
+            <div id="appDemo">
+                <h4 class="mb-3 mt-5">Screen recordings of Snackable</h4>
+                <div class="row justify-content-center">
+                    <video width="600" controls>
+                        <source src="./videos/Snackable App Demo.mp4" type="video/mp4" style="margin: 0 auto;">
+                        Your browser does not support HTML video.
+                    </video>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="images-section" id="screenshots">
+        <div class="container">
+            <h4 class="mb-5">Screens of Snackable</h4>
+            <div class="row justify-content-around">
+                <div class="col-lg-4 col-md-6 col-s-12">
+                    <img src="./images/launch_page.jpg" alt="" class="mb-1">
+                    <p class="pb-3">Launch Page</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="./images/compare_page.jpg" alt="" class="mb-1">
+                    <p class="pb-3">Home Page Example 1: The items were sorted by "Most Protein"</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="./images/compare_page_with_bookmark.jpg" alt="" class="mb-1">
+                    <p class="pb-3">Home Page Example 2: The items were sorted by "Most Fat"</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/sort_settings.jpg" alt="" class="mb-1">
+                    <p class="pb-3">Sort Settings Page: Users could choose how the items should be sorted</p>
+                </div>
+                <div class=" col-md-6">
+                    <img src="./images/display_setting.jpg" alt="" class="mb-1">
+                    <p class="pb-3">Display Settings Page: Users could choose what nutrients of the items should be
+                        displayed on the home page</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/new_history.jpg" alt="" class="mb-1">
+                    <p class="pb-3">History Page Example 1: The products scanned before will be stored here</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/history_page_operation.jpg" alt="" class="mb-1">
+                    <p class="pb-3">History Page Example 2: The products in history page can be saved to Compare or
+                        Saved page or be removed</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/new_saved.jpg" alt="" class="mb-1">
+                    <p class="pb-3">Saved Page Example 1: Users can save their favorite products here</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/saved_page_operation.jpg" alt="" class="mb-1">
+                    <p class="pb-3">Saved Page Example 2: Users can compare or remove the saved products</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-s-12">
+                    <img src="./images/item_detail_page_3.jpg" alt="" class="mb-1">
+                    <p class="pb-3">Product Detail Page Example 1: Users can view the DRI and the food additives of the
+                        product</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="./images/item_detail_page_2.jpg" alt="" class="mb-1">
+                    <p class="pb-3">Product Detail Page Example 2: Users can save the product by clicking the top-right
+                        bookmark button</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="./images/additive_detail_page.jpg" alt="" class="mb-1">
+                    <p class="pb-3">Additive Detail Page: Users can view the details of the food additives of every
+                        product to know what they actually are</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-section" id="moreInfo">
+        <div class="container">
+            <h4 class="mb-2">More Info of Snackable</h4>
+            <a href="https://www.figma.com/file/cKIQxg7X0YvscE7XTES2hR/Snackable?node-id=0%3A1">Figma Design</a>
+            <a href="https://www.figma.com/proto/cKIQxg7X0YvscE7XTES2hR/Snackable?node-id=583%3A1193&scaling=scale-down" class="mb-5">App Simulation</a>
+            
+            <p>UI/UX Designed by Mary Choo</p>
+            <p>App Developed by Ann Chou</p>
+        </div>
+        
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
